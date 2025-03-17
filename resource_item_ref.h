@@ -22,6 +22,7 @@ namespace base {
 				assert(header.size > 0);
 			}
 
+
 			content content_type() const noexcept {
 				return _content;
 			}
